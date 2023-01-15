@@ -47,7 +47,6 @@ body {
   font-size: 55px;
   font-weight: 700;
   text-align: center;
-  margin-right: px;
   margin-top: 150px;
   margin-bottom: 20px;
   padding: 5px;
@@ -73,8 +72,8 @@ body {
   margin-top: 30px;
 }
 .banner-images img {
-  height: 400px;
-  width: 900px;
+  height: 500px;
+  width: 950px;
   margin-bottom: 20px;
 }
 
@@ -97,12 +96,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 70px;
   margin: 80px 150px;
 }  
 
 .feature{
-  width: 100%;
+  width: 80%;
 }
 
 .feature-image{
@@ -143,47 +142,52 @@ body {
   margin-top: 50px;
 }
 
-/* skils design css  */
-
-.skills {
-  background-color: #f8f7f6;
-  min-height: 1500px;
-}
 
 
+/* vegali part start */
+
+/* ================
+skils design css 
+ ==================*/
+
+ .skill {
+ background-color: #f0eeee;
+ min-height: 810px;
+}  
 
 
 .border {
-  border-color:  #FF900E;
-  border-width: 2px;
+  border-color: #FF900E;
+  border-width: 5px;
   border-style: solid;
   border-top: none;
   border-bottom: none;
   border-right: none;
   margin-left: 40px;
-  height: 150px;
+  height: 100px;
 }
 
-/* .border {
+.border {
   display: flex;
-} */
+  gap: 30px;
+}
 
 .skil-heading {
-  font-size: 45px;
+  font-size: 36px;
   font-weight: 600;
   margin-bottom: 10px;
   margin-left: 25px;
 }
 
 .skils-para {
-  font-size: 16px;
+  font-size: 15px;
   color: #727272;
   margin-left: 8px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   
 }
 .skil-h3{
-  font-size: 20px;
+  font-size: 18px;
   color:  #131313;
   margin-left: 25px;
   margin-bottom: 5px;
@@ -191,24 +195,43 @@ body {
 
 
 .skil-para {
-  font-size: 16px;
+  font-size: 14px;
   color: #727272;
   margin-left: 25px;
-  margin-bottom: 50px;
-  margin-top: 15px;
   
 }
 .skil-div {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 5px;
-  padding-top: 40px;
-  padding-bottom: 1px;
-  margin-top: 35px;
+  padding-top: 20px;
+  padding-bottom: 25px; 
+  margin-top: 10px;
+  
   
 }
 
 .skil-images img {
- width: 200px;
+ width: 500px;
+ height: 800px;
+}
+
+.button-p {
+ 
+  margin-top: -95px;
+  margin-left: 580px;
+}
+.btn-buttons{
+  color: #ffff;
+  background-color: #FF900E;
+  padding: 15px 15px;
+  font-size: 35px;
+  font-weight: 700px;
+  border: none;
+  border-radius: 5px;
+}
+.span3 {
+  font-size: 14px;
+  margin-top: -5px;
 }
 
 /* some facts style css */
