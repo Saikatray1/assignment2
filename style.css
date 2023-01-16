@@ -206,23 +206,16 @@ main responsive style css start
     width: 100%;
   }
   
-  .feature-image{
-    width: 100px;
-   
-    
-  } 
-  
   .feature-image img {
     height: 400px;
     width: 500px;
-    
   }
   
   .feature-heading {
-    font-size: 36px;
+    font-size: 30px;
     color: #727272;
     margin-bottom: 20px;
-  
+    margin-left: 15px;
   }
   
   .span2 {
@@ -236,14 +229,12 @@ main responsive style css start
   .feature-description {
     font-size: 12px;
     color: #727272;
+    margin-left: 15px;
   }
   
-  .feature-info {
-   
-  }
   .btns {
-    margin-top: 50px;
-
+    margin-top: 20px;
+    margin-left: 15px;
 }
 }
 
